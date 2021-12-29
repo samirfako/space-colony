@@ -14,7 +14,7 @@ const About = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
           ipsum dolor sit amet, consectetur adipiscing elit,
         </p>
-        {/* <span className="number">60</span>
+        <span className="number">60</span>
         <span className="text">
           Awesome <br /> Projects.
         </span>
@@ -25,7 +25,7 @@ const About = () => {
         <span className="number">89</span>
         <span className="text">
           Satisfied <br /> Clients.
-        </span> */}
+        </span>
       </div>
       <div className="about-image">
         <img

@@ -14,18 +14,23 @@ const About = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
           ipsum dolor sit amet, consectetur adipiscing elit,
         </p>
-        <span className="number">60</span>
-        <span className="text">
-          Awesome <br /> Projects.
-        </span>
-        <span className="number">6</span>
-        <span className="text">
-          Years <br /> Experienced.
-        </span>
-        <span className="number">89</span>
-        <span className="text">
-          Satisfied <br /> Clients.
-        </span>
+        <div className="txt-num">
+          <span className="numbers">60</span>
+          <span className="text">
+            {" "}
+            Awesome <br /> Projects.
+          </span>
+          <span className="numbers">6</span>
+          <span className="text">
+            {" "}
+            Years <br /> Experienced.
+          </span>
+          <span className="numbers">89</span>
+          <span className="text">
+            {" "}
+            Satisfied <br /> Clients.
+          </span>
+        </div>
       </div>
       <div className="about-image">
         <img

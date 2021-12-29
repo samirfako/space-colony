@@ -1,0 +1,250 @@
+:root {
+  --background: #1c1b2d;
+  --color: #ffbc00;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-image {
+  width: 174.7px;
+  height: 152px;
+}
+
+.hero-section h1 {
+  font-size: 64px;
+  // font-family: "Yuji Hentaigana Akari", cursive;
+  // src: url("https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap");
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #262628;
+  margin-bottom: 0;
+}
+
+.hero-section p {
+  font-family: Helvetica;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #262628;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.hero-section .explore {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  color: #000;
+}
+
+@media (min-width: 320px) {
+  .hero-section {
+    padding-top: 8rem;
+    flex-grow: column;
+    background-color: #1c1b2d;
+
+    h1 {
+      font-size: 20px;
+      color: #ffffff;
+      max-width: 80vw;
+    }
+
+    p {
+      font-size: 13px;
+      color: #ffffff;
+      max-width: 70vw;
+      margin-bottom: 3rem;
+    }
+    .second-image {
+      margin-top: 3rem;
+      width: 70px;
+      height: 45px;
+    }
+    .explore {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 375px) {
+  .hero-section {
+    padding-top: 6rem;
+    flex-grow: column;
+    background-color: #1c1b2d;
+
+    h1 {
+      font-size: 25px;
+      color: #ffffff;
+      max-width: 80vw;
+    }
+
+    p {
+      font-size: 15px;
+      color: #ffffff;
+      max-width: 70vw;
+      margin-bottom: 3rem;
+    }
+    .second-image {
+      margin-top: 3rem;
+      width: 70px;
+      height: 45px;
+    }
+    .explore {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 425px) {
+  .hero-section {
+    padding-top: 6rem;
+    flex-grow: column;
+    background-color: #1c1b2d;
+
+    h1 {
+      font-size: 28px;
+      color: #ffffff;
+      max-width: 80vw;
+    }
+
+    p {
+      font-size: 17px;
+      color: #ffffff;
+      max-width: 70vw;
+      margin-bottom: 3rem;
+    }
+    .second-image {
+      margin-top: 3rem;
+      width: 70px;
+      height: 45px;
+    }
+    .explore {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-section {
+    padding-top: 6rem;
+    flex-grow: column;
+    background-color: #1c1b2d;
+
+    h1 {
+      font-size: 43px;
+      color: #ffffff;
+      max-width: 80vw;
+    }
+
+    p {
+      font-size: 14px;
+      color: #ffffff;
+      max-width: 70vw;
+      margin-bottom: 3rem;
+    }
+    .second-image {
+      margin-top: 3rem;
+      z-index: 3;
+      width: 95px;
+      height: 65px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+
+    .hero-image {
+      width: 174.7px;
+      height: 152px;
+    }
+
+    h1 {
+      font-size: 64px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #262628;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-family: Helvetica;
+      font-size: 21px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #262628;
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .grey-line {
+      background-color: #808080;
+      height: 2px;
+      width: 57rem;
+      display: flex;
+      position: absolute;
+      margin-top: 25.5rem;
+    }
+
+    .white-background {
+      // border: 1px solid red;
+      width: 15rem;
+      height: 1rem;
+      z-index: 2;
+      position: absolute;
+      margin-top: 25.5rem;
+      background-color: #fff;
+    }
+    strong {
+      margin-top: 1rem;
+      width: 132px;
+      height: 26px;
+      font-family: Helvetica;
+      font-size: 14px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.86;
+      letter-spacing: normal;
+      color: #000;
+    }
+    // .explore {
+    //   font-family: Helvetica;
+    //   font-size: 14px;
+    //   font-weight: bold;
+    //   font-stretch: normal;
+    //   font-style: normal;
+    //   line-height: 1.86;
+    //   letter-spacing: normal;
+    //   color: #000;
+    // }
+  }
+}

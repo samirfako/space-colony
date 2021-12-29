@@ -1,0 +1,86 @@
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  //   height: 100vh;
+  .about-text {
+    .grey-line {
+      width: 30px;
+      height: 3px;
+      margin: 11px 140px;
+      //   border: solid 1px #f30909;
+      background-color: #838383;
+      position: absolute;
+    }
+    .grey-text {
+      width: 76px;
+      height: 26px;
+      margin: 0 0 0 11rem;
+      font-family: Helvetica;
+      font-size: 18px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.44;
+      letter-spacing: normal;
+      color: #838383;
+      position: relative;
+    }
+    h1 {
+      width: 359px;
+      height: 104px;
+      margin: 6px 16px 37px 142px;
+      font-family: helvetica, arial, sans;
+      font-size: 36px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.44;
+      letter-spacing: 0.18px;
+      color: #000;
+    }
+    .content {
+      width: 549px;
+      height: 78px;
+      margin: 37px 29px 59px 142px;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.63;
+      letter-spacing: normal;
+      color: #838383;
+    }
+
+    .number {
+      margin: 59px 4px 256px 142px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 36px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 0.03px;
+      color: #000;
+    }
+    .text {
+      display: inline;
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.36;
+      letter-spacing: 0.3px;
+      color: #000;
+    }
+  }
+
+  .about-image-item {
+    width: 540.2px;
+    height: 529px;
+    margin: 67.2px 148px 154.8px 48.8px;
+    object-fit: contain;
+  }
+}

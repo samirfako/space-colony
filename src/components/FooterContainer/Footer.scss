@@ -1,0 +1,38 @@
+.container {
+  background: var(--background);
+  height: 100vw;
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    .space-icon-mobile {
+      display: flex;
+      justify-content: center;
+      margin: 2rem 0 9px 0;
+      width: 77px;
+      height: 67px;
+    }
+    .space-mail-mobile {
+      font-size: 1.5rem;
+    }
+    .space-social-mobile {
+      display: flex;
+      width: 40%;
+      justify-content: space-around;
+      .facebook-mobile {
+        font-size: 1.5rem;
+      }
+      .twitter-mobile {
+        font-size: 1.5rem;
+      }
+      .instagram-mobile {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

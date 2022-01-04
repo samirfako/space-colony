@@ -1,15 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .skills-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
-  .cards {
-    display: flex;
-    justify-content: space-between;
+  h1 {
+    display: none;
+    // text-align: center;
+    // margin-bottom: 60px;
+
+    .skills-line {
+      display: none;
+      // margin-left: 15px;
+      // letter-spacing: -3px;
+      // color: #979797;
+      // display: inline-block;
+      // width: 30px;
+      // margin: 0 10px 5px 15px;
+      // border-bottom: 1px solid #979797;
+    }
+    .skills-grey-text {
+      display: none;
+      // color: #979797;
+      // font-family: Inter;
+      // font-weight: 500;
+      // font-size: 18px;
+      // line-height: 1.44;
+    }
   }
-  .card {
-    border: 1px solid red;
-    width: 262px;
+  .cards {
+    // display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 41px;
+
+    .card {
+      border-radius: 20px;
+      border: solid 1px #e2e2ea;
+      width: 262px;
+      margin: 22px 1rem 30px 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        margin-top: 26px;
+        width: 160px;
+        height: 150px;
+      }
+      .card-text {
+        margin-left: 19px;
+      }
+    }
   }
 }

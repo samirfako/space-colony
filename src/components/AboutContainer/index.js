@@ -6,8 +6,12 @@ const About = () => {
   return (
     <div className="about-section">
       <div className="about-text">
-        <span className="grey-line"></span>
-        <span className="grey-text">About Us</span>
+        <div className="grey-content">
+          <p className="grey-text">
+            <span className="grey-line"></span>
+            About Us
+          </p>
+        </div>
         <h1>We Are a Cutting Edge Digital Agency</h1>
         <p className="content">
           “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -15,23 +19,18 @@ const About = () => {
           ipsum dolor sit amet, consectetur adipiscing elit,
         </p>
         <div className="txt-num">
-          <span className="numbers">60</span>
-          <span className="text">
-            {" "}
-            Awesome <br /> Projects.
-          </span>
-          <span className="numbers">6</span>
-          <span className="text">
-            {" "}
-            Years <br /> Experienced.
-          </span>
-          <span className="numbers">89</span>
-          <span className="text">
-            {" "}
-            Satisfied <br /> Clients.
-          </span>
+          <p className="text">
+            <span className="numbers">60</span> Awesome <br /> Projects.
+          </p>
+          <p className="text">
+            <span className="numbers">6</span> Years <br /> Experienced.
+          </p>
+          <p className="text">
+            <span className="numbers">89</span> Satisfied <br /> Clients.
+          </p>
         </div>
       </div>
+
       <div className="about-image">
         <img
           className="about-image-item"

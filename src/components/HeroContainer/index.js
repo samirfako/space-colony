@@ -15,7 +15,7 @@ const Hero = () => {
       <span className="grey-line"></span>
       <img className="second-image" src={heroImgSecond} alt="Second Image" />
       <span className="white-background"></span>
-      <strong>Scroll and Explore</strong>
+      <p className="explore">Scroll and Explore</p>
     </div>
   );
 };

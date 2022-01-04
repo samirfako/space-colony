@@ -9,162 +9,162 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
+  // padding-top: 5rem;
+  flex-grow: column;
+  background-color: var(--background);
 
-.hero-image {
-  width: 174.7px;
-  height: 152px;
-}
+  .hero-image {
+    width: 175px;
+    height: 154px;
+    margin: 100px 0 16px 0;
+  }
 
-.hero-section h1 {
-  font-size: 64px;
-  // font-family: "Yuji Hentaigana Akari", cursive;
-  // src: url("https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap");
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #262628;
-  margin-bottom: 0;
-}
-
-.hero-section p {
-  font-family: Helvetica;
-  font-size: 21px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #262628;
-  text-align: center;
-  margin-top: 1rem;
-}
-
-.hero-section .explore {
-  font-family: Helvetica;
-  font-size: 14px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.86;
-  letter-spacing: normal;
-  color: #000;
-}
-
-@media (min-width: 320px) {
-  .hero-section {
-    padding-top: 8rem;
-    flex-grow: column;
-    background-color: #1c1b2d;
-
-    h1 {
-      font-size: 20px;
-      color: #ffffff;
-      max-width: 80vw;
-    }
-
-    p {
-      font-size: 13px;
-      color: #ffffff;
-      max-width: 70vw;
-      margin-bottom: 3rem;
-    }
-    .second-image {
-      margin-top: 3rem;
-      width: 70px;
-      height: 45px;
-    }
-    .explore {
-      display: none;
-    }
+  h1 {
+    font-size: 24px;
+    // font-family: "Yuji Hentaigana Akari", cursive;
+    // src: url("https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap");
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 3px;
+  }
+  p {
+    color: #ffff;
+    font-size: 15px;
+    width: 85vw;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.4px;
+  }
+  .second-image {
+    width: 65px;
+    height: 50px;
+    object-fit: contain;
+    margin-top: 4rem;
+  }
+  .explore {
+    display: none;
   }
 }
 
 @media (min-width: 375px) {
   .hero-section {
-    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // padding-top: 5rem;
     flex-grow: column;
     background-color: #1c1b2d;
 
-    h1 {
-      font-size: 25px;
-      color: #ffffff;
-      max-width: 80vw;
+    .hero-image {
+      width: 175px;
+      height: 160px;
+      margin: 100px 0 16px 0;
     }
 
-    p {
-      font-size: 15px;
+    h1 {
+      font-size: 25px;
+      // font-family: "Yuji Hentaigana Akari", cursive;
+      // src: url("https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap");
+      font-weight: bold;
       color: #ffffff;
-      max-width: 70vw;
-      margin-bottom: 3rem;
+      margin-bottom: 3px;
+    }
+    p {
+      color: #ffff;
+      font-size: 15.5px;
+      width: 75vw;
+      line-height: 1.5;
+      text-align: center;
     }
     .second-image {
-      margin-top: 3rem;
       width: 70px;
-      height: 45px;
-    }
-    .explore {
-      display: none;
+      height: 50px;
+      object-fit: contain;
+      margin-top: 4rem;
     }
   }
 }
 
 @media (min-width: 425px) {
   .hero-section {
-    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // padding-top: 5rem;
     flex-grow: column;
     background-color: #1c1b2d;
 
-    h1 {
-      font-size: 28px;
-      color: #ffffff;
-      max-width: 80vw;
+    .hero-image {
+      width: 175px;
+      height: 160px;
+      margin: 100px 0 16px 0;
     }
 
-    p {
-      font-size: 17px;
+    h1 {
+      font-size: 30px;
+      // font-family: "Yuji Hentaigana Akari", cursive;
+      // src: url("https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap");
+      font-weight: bold;
       color: #ffffff;
-      max-width: 70vw;
-      margin-bottom: 3rem;
+      margin-bottom: 3px;
+    }
+    p {
+      color: #ffff;
+      font-size: 17px;
+      width: 80vw;
+      line-height: 1.5;
+      text-align: center;
+      letter-spacing: 1px;
     }
     .second-image {
-      margin-top: 3rem;
       width: 70px;
-      height: 45px;
-    }
-    strong {
-      display: none;
+      height: 50px;
+      object-fit: contain;
+      margin-top: 3rem;
     }
   }
 }
 
 @media (min-width: 768px) {
   .hero-section {
-    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // padding-top: 5rem;
     flex-grow: column;
     background-color: #1c1b2d;
 
-    h1 {
-      font-size: 43px;
-      color: #ffffff;
-      max-width: 80vw;
+    .hero-image {
+      width: 175px;
+      height: 154px;
+      margin: 100px 0 16px 0;
     }
 
-    p {
-      font-size: 14px;
+    h1 {
+      font-size: 40px;
+      // font-family: "Yuji Hentaigana Akari", cursive;
+      // src: url("https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap");
+      font-weight: bold;
       color: #ffffff;
-      max-width: 70vw;
-      margin-bottom: 3rem;
+    }
+    p {
+      color: #ffff;
+      font-size: 24px;
+      width: 58vw;
+      line-height: 1.4;
+      text-align: center;
+      // letter-spacing: 1.5px;
     }
     .second-image {
-      margin-top: 3rem;
-      z-index: 3;
-      width: 95px;
-      height: 65px;
+      width: 70px;
+      height: 50px;
+      object-fit: contain;
+      margin-top: 1rem;
     }
-    strong {
+    .explore {
       display: none;
     }
   }
@@ -176,78 +176,67 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #fff;
+    // padding-top: 5rem;
+    flex-grow: column;
+    background-color: #ffffff;
 
     .hero-image {
-      width: 174.7px;
-      height: 152px;
+      width: 175px;
+      height: 154px;
+      margin: 150px 0 0 0;
     }
 
     h1 {
       font-size: 64px;
+      // font-family: "Yuji Hentaigana Akari", cursive;
+      // src: url("https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap");
       font-weight: bold;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      color: #262628;
-      margin-bottom: 0;
+      color: #000000;
+      margin-top: 9px;
     }
-
     p {
-      font-family: Helvetica;
-      font-size: 21px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      color: #262628;
+      color: #000000;
+      font-family: helvetica, arial, sans-serif;
+      font-size: 19px;
+      width: 75vw;
+      line-height: 1.4;
       text-align: center;
-      margin-top: 1rem;
+      margin-top: 9px;
+      // letter-spacing: 1.5px;
     }
 
     .grey-line {
-      background-color: #808080;
-      height: 2px;
-      width: 69rem;
-      display: flex;
-      position: absolute;
+      border-bottom: 2px solid #808080;
+      width: 770px;
       margin-top: 25.5rem;
+      position: absolute;
+    }
+
+    .second-image {
+      width: 80px;
+      height: 60px;
+      object-fit: contain;
+      margin: 30px 0 21px 0;
+      z-index: 3;
     }
 
     .white-background {
-      // border: 1px solid red;
-      width: 15rem;
-      height: 1rem;
-      z-index: 2;
+      width: 210px;
+      height: 10px;
       position: absolute;
       margin-top: 25.5rem;
-      background-color: #fff;
+      z-index: 2;
+      background: #fff;
     }
-    strong {
-      margin-top: 1rem;
-      width: 132px;
-      height: 26px;
+
+    .explore {
+      display: inline;
       font-family: Helvetica;
-      font-size: 14px;
+      font-size: 15px;
       font-weight: bold;
-      font-stretch: normal;
-      font-style: normal;
       line-height: 1.86;
-      letter-spacing: normal;
       color: #000;
+      letter-spacing: 0.1px;
     }
-    // .explore {
-    //   font-family: Helvetica;
-    //   font-size: 14px;
-    //   font-weight: bold;
-    //   font-stretch: normal;
-    //   font-style: normal;
-    //   line-height: 1.86;
-    //   letter-spacing: normal;
-    //   color: #000;
-    // }
   }
 }

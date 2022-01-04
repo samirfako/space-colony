@@ -1,6 +1,6 @@
 import React from "react";
+import data from "./skillsData";
 import "./skills.scss";
-
 const Skills = () => {
   return (
     <div className="skills-section">
@@ -9,65 +9,17 @@ const Skills = () => {
         <span className="skills-grey-text">What we actually do</span>
       </h1>
       <section class="cards">
-        <article class="card">
-          <img></img>
-          <h2>Planning</h2>
-          <p> “Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        </article>
-
-        <article class="card">
-          <img></img>
-          <h2>UIUX design</h2>
-
-          <p> “Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        </article>
-
-        <article class="card">
-          <img></img>
-          <h2>UIUX design</h2>
-
-          <p> “Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        </article>
-
-        <article class="card">
-          <img></img>
-          <h2>Development</h2>
-
-          <p> “Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        </article>
-      </section>
-      {/*--- 2nd section cards ---  */}
-
-      <section class="cards">
-        <article class="card">
-          <img></img>
-          <h2>Android apps</h2>
-          <p> “Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        </article>
-
-        <article class="card">
-          <img></img>
-          <h2>Websites</h2>
-
-          <p> “Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        </article>
-
-        <article class="card">
-          <img></img>
-          <h2>Learnio</h2>
-
-          <p> “Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        </article>
-
-        <article class="card">
-          <img></img>
-          <h2>Startups</h2>
-
-          <p> “Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        </article>
+        {data.map((item) => (
+          <article class="card">
+            <img src={item.image} alt="image" />
+            <div className="card-text">
+              <h2>{item.title}</h2>
+              <p> {item.description}</p>
+            </div>
+          </article>
+        ))}
       </section>
     </div>
   );
 };
-
 export default Skills;

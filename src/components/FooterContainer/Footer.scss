@@ -1,15 +1,16 @@
 .container {
   background: var(--background);
-  height: 100vw;
-  .desktop {
+  height: 40vh;
+  #desktop {
     display: none;
   }
-  .mobile {
+  #mobile {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     color: white;
+
     .space-icon-mobile {
       display: flex;
       justify-content: center;
@@ -17,21 +18,382 @@
       width: 77px;
       height: 67px;
     }
+
     .space-mail-mobile {
-      font-size: 1.5rem;
+      margin-bottom: 21px;
+
+      a {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+      }
     }
+
     .space-social-mobile {
       display: flex;
-      width: 40%;
-      justify-content: space-around;
+      width: 60%;
+      justify-content: space-between;
+
       .facebook-mobile {
-        font-size: 1.5rem;
+        font-size: 2rem;
       }
       .twitter-mobile {
-        font-size: 1.5rem;
+        font-size: 2rem;
       }
       .instagram-mobile {
-        font-size: 1.5rem;
+        font-size: 2rem;
+      }
+    }
+
+    .space-copyright-mobile {
+      font-family: Raleway;
+      font-size: 14px;
+      line-height: 1.86;
+      color: #fff;
+      margin-top: 2rem;
+    }
+  }
+}
+
+@media (min-width: 375px) {
+  .container {
+    background: var(--background);
+    height: 40vh;
+    #desktop {
+      display: none;
+    }
+    #mobile {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+
+      .space-mail-mobile {
+        margin-bottom: 21px;
+
+        a {
+          font-family: "Poppins", sans-serif;
+          font-size: 22px;
+          font-weight: bold;
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+
+      .space-copyright-mobile {
+        font-family: Raleway;
+        font-size: 16px;
+        line-height: 1.86;
+        color: #fff;
+        margin-top: 1.4rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 425px) {
+  .container {
+    background: var(--background);
+    height: 40vh;
+    #desktop {
+      display: none;
+    }
+    #mobile {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+
+      .space-icon-mobile {
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0 9px 0;
+        width: 77px;
+        height: 67px;
+      }
+
+      .space-mail-mobile {
+        margin-bottom: 1.1rem;
+
+        a {
+          font-family: "Poppins", sans-serif;
+          font-size: 26px;
+          font-weight: bold;
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+
+      .space-social-mobile {
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+
+        .facebook-mobile {
+          font-size: 2rem;
+        }
+        .twitter-mobile {
+          font-size: 2rem;
+        }
+        .instagram-mobile {
+          font-size: 2rem;
+        }
+      }
+
+      .space-copyright-mobile {
+        font-family: Raleway;
+        font-size: 18px;
+        line-height: 1.86;
+        color: #fff;
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    background: var(--background);
+    height: 40vh;
+    #desktop {
+      display: none;
+    }
+    #mobile {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+
+      .space-icon-mobile {
+        display: flex;
+        justify-content: center;
+        margin: 1.4rem 0 9px 0;
+        width: 77px;
+        height: 67px;
+      }
+
+      .space-mail-mobile {
+        margin-bottom: 0.8rem;
+
+        a {
+          font-family: "Poppins", sans-serif;
+          font-size: 33px;
+          font-weight: bold;
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+
+      .space-social-mobile {
+        display: flex;
+        width: 60%;
+        justify-content: space-around;
+
+        .facebook-mobile {
+          font-size: 2rem;
+        }
+        .twitter-mobile {
+          font-size: 2rem;
+        }
+        .instagram-mobile {
+          font-size: 2rem;
+        }
+      }
+
+      .space-copyright-mobile {
+        font-family: Raleway;
+        font-size: 14px;
+        line-height: 1.86;
+        color: #fff;
+        margin-top: 1.3rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    background: var(--background);
+    height: 33vh;
+    display: flex;
+    align-items: center;
+    #mobile {
+      display: none;
+    }
+    #desktop {
+      width: 100%;
+      display: inline-block;
+      justify-content: space-between;
+      align-items: center;
+      .footer-navbar {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 5.2rem;
+        margin-bottom: 2rem;
+
+        .space-icon-desktop {
+          img {
+            width: 138px;
+            height: 120px;
+          }
+        }
+        .footer-nav {
+          display: flex;
+          justify-content: center;
+          li {
+            font-family: "Poppins", sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            list-style-type: none;
+            text-decoration: none;
+            margin-right: 1rem;
+            &:last-child {
+              margin-right: 0;
+            }
+            display: flex;
+            align-items: center;
+            a {
+            }
+          }
+        }
+      }
+      hr {
+        background-color: rgb(255, 255, 255, 0.2);
+        height: 2px;
+      }
+      .footer-info {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 5.1rem;
+        .space-mail-desktop {
+          a {
+            color: #fff;
+            text-decoration: none;
+            font-family: "Poppins", sans-serif;
+          }
+        }
+        .space-social-desktop {
+          color: #fff;
+          display: flex;
+          font-size: 24px;
+          .facebook-desktop {
+            margin-right: 59px;
+          }
+          .twitter-desktop {
+            margin-right: 59px;
+          }
+          .instagram-desktop {
+          }
+        }
+        .space-copyright-desktop {
+          font-family: Raleway;
+          font-size: 16px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.63;
+          letter-spacing: normal;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    background: var(--background);
+    height: 33vh;
+    display: flex;
+    align-items: center;
+    #mobile {
+      display: none;
+    }
+    #desktop {
+      width: 90%;
+      margin-left: 4rem;
+      display: inline-block;
+      justify-content: space-between;
+      align-items: center;
+      .footer-navbar {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 5.2rem;
+        margin-bottom: 2rem;
+
+        .space-icon-desktop {
+          img {
+            margin-left: 2.5rem;
+            width: 138px;
+            height: 120px;
+          }
+        }
+        .footer-nav {
+          display: flex;
+          justify-content: center;
+          li {
+            font-family: "Poppins", sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            list-style-type: none;
+            text-decoration: none;
+            margin-right: 1rem;
+            &:last-child {
+              margin-right: 0;
+            }
+            display: flex;
+            align-items: center;
+            a {
+            }
+          }
+        }
+      }
+      hr {
+        background-color: rgb(255, 255, 255, 0.2);
+        height: 2px;
+      }
+      .footer-info {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 5.1rem;
+        .space-mail-desktop {
+          margin-left: 2.5rem;
+          a {
+            color: #fff;
+            text-decoration: none;
+            font-family: "Poppins", sans-serif;
+          }
+        }
+        .space-social-desktop {
+          color: #fff;
+          display: flex;
+          font-size: 24px;
+          .facebook-desktop {
+            margin-right: 59px;
+          }
+          .twitter-desktop {
+            margin-right: 59px;
+          }
+          .instagram-desktop {
+          }
+        }
+        .space-copyright-desktop {
+          font-family: Raleway;
+          font-size: 16px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.63;
+          letter-spacing: normal;
+          color: #fff;
+        }
       }
     }
   }

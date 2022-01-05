@@ -20,13 +20,23 @@ const About = () => {
         </p>
         <div className="txt-num">
           <p className="text">
-            <span className="numbers">60</span> Awesome <br /> Projects.
+            <span className="numbers">60</span>
+            <span className="inner-text">
+              Awesome <br /> Projects.
+            </span>
           </p>
           <p className="text">
-            <span className="numbers">6</span> Years <br /> Experienced.
+            <span className="numbers">6</span>
+            <span className="inner-text">
+              Years <br /> Experienced.
+            </span>
           </p>
           <p className="text">
-            <span className="numbers">89</span> Satisfied <br /> Clients.
+            <span className="numbers">89</span>{" "}
+            <span className="inner-text">
+              {" "}
+              Satisfied <br /> Clients.
+            </span>
           </p>
         </div>
       </div>

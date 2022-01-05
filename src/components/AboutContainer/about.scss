@@ -292,32 +292,32 @@ body {
 @media (min-width: 1024px) {
   .about-section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
-    margin-top: 3rem;
-
+    margin: 2.5rem 0 0 1rem;
+    height: 60vw;
     .about-text {
-      max-width: 50%;
+      max-width: 45%;
       display: flex;
 
       h1 {
         font-size: 40px;
         font-family: "Poppins", sans-serif;
-        src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+        width: 90%;
       }
 
       .content {
-        font-size: 19px;
+        font-size: 17px;
+        width: 95%;
       }
 
       .txt-num {
         display: flex;
-        margin: 2rem 1.5rem 3.1px 0;
+        margin: 0.5rem 1.5rem 3.1px 0;
         justify-content: space-evenly;
         min-width: 100%;
 
         .numbers {
-          display: inline;
           font-family: Arial, Helvetica, sans-serif;
           font-size: 36px;
           font-weight: bold;
@@ -326,8 +326,9 @@ body {
         }
 
         .text {
+          display: flex;
           font-family: Inter;
-          font-size: 12px;
+          font-size: 14px;
           line-height: 1.33;
           letter-spacing: 0.26px;
           text-align: center;
@@ -336,14 +337,77 @@ body {
     }
     .about-image {
       display: flex;
-      // margin: 0 1rem 37px 1rem;
-      background-color: #ffffff;
-      // border-radius: 16px;
-      height: 206px;
       .about-image-item {
-        transform: scaleX(1);
-        width: 350px;
-        height: 394px;
+        // transform: scaleX(1);
+        width: 380px;
+        height: 360px;
+        // margin-left: -10px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 2.5rem 0 0 1.4rem;
+    height: 100vh;
+    // width: 100vw;
+    .about-text {
+      max-width: 40%;
+      display: flex;
+
+      h1 {
+        font-size: 40px;
+        font-family: "Poppins", sans-serif;
+        width: 70%;
+      }
+
+      .content {
+        font-size: 20px;
+        width: 85%;
+        margin-top: 2rem;
+      }
+
+      .txt-num {
+        display: flex;
+        margin: 2rem 1.5rem 3.1px 1rem;
+        justify-content: start;
+
+        .numbers {
+          font-family: "Lato", sans-serif;
+          font-size: 40px;
+          font-weight: bold;
+          letter-spacing: 0.03px;
+          color: #000;
+          margin-right: 15px;
+        }
+
+        .text {
+          display: flex;
+          font-family: Inter;
+          font-size: 14px;
+          line-height: 1.33;
+          letter-spacing: 0.26px;
+          text-align: start;
+          margin-right: 50px;
+
+          .inner-text {
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+    }
+    .about-image {
+      display: flex;
+      .about-image-item {
+        // transform: scaleX(1);
+        margin-left: 3.8rem;
+        width: 490px;
+        height: 470px;
       }
     }
   }
